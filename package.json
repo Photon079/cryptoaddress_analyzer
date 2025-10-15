@@ -1,0 +1,12 @@
+{
+  "name": "cryptointel-setup",
+  "version": "1.0.0",
+  "description": "Database setup scripts for CryptoIntel",
+  "scripts": {
+    "setup": "node scripts/setup-database.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-appwrite": "^20.2.1"
+  }
+}
