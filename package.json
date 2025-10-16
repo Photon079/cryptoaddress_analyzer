@@ -1,7 +1,7 @@
 {
-  "name": "cryptointel-setup",
+  "name": "blocktrace-setup",
   "version": "1.0.0",
-  "description": "Database setup scripts for CryptoIntel",
+  "description": "Database setup scripts for Blocktrace",
   "scripts": {
     "setup": "node scripts/setup-database.js"
   },

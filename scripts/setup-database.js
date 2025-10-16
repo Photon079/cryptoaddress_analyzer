@@ -4,7 +4,7 @@
  * Appwrite Database Setup Script
  *
  * This script automatically creates all necessary collections, attributes, and indexes
- * for the CryptoIntel application in your Appwrite project.
+ * for the Blocktrace application in your Appwrite project.
  *
  * Usage:
  * 1. Update your .env file with your Appwrite credentials
