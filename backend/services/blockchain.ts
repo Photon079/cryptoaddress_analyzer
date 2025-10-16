@@ -193,7 +193,7 @@ export const riskAssessmentService = {
 
     // Balance factor (very high balances might be suspicious)
     if ('balance' in addressData) {
-      const balance = parseFloat(addressData.balance);
+      const balance = parseFloat(String(addressData.balance));
       if (balance > 100) { // High ETH balance
         riskScore += 15;
         factors.push('High balance');
