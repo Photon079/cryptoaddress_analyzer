@@ -114,9 +114,14 @@ function Navbar() {
             justifyContent: 'center',
             fontSize: '16px'
           }}>
-            🔐
+            <img src="./logo.jpg" alt="" style={{
+              width:'32px',
+              height: '32px',
+              objectFit: 'cover',
+              borderRadius: '8px'
+            }} />
           </div>
-          CryptoIntel
+          Blocktrace
         </Link>
 
         <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
@@ -417,7 +422,7 @@ function HomePage() {
                 marginBottom: '1.5rem',
                 fontWeight: '600'
               }}>
-                👥 Who Uses CryptoIntel
+                👥 Who Uses Blocktrace
               </h3>
 
               <div style={{ marginBottom: '2rem' }}>
@@ -755,7 +760,7 @@ function HomePage() {
               }}>💰</div>
               <h3 style={{ color: '#48bb78', marginBottom: '1rem', fontSize: '1.25rem' }}>Financial Institution</h3>
               <p style={{ color: '#9aa5ce', lineHeight: '1.6', fontSize: '0.9rem' }}>
-                "CryptoIntel's due diligence platform prevented a $1.2 million loss from a sophisticated
+                "Blocktrace's due diligence platform prevented a $1.2 million loss from a sophisticated
                 phishing scam targeting our treasury operations. The real-time alerts saved us from disaster."
               </p>
               <div style={{
@@ -788,7 +793,7 @@ function HomePage() {
               }}>💼</div>
               <h3 style={{ color: '#7aa2f7', marginBottom: '1rem', fontSize: '1.25rem' }}>DeFi Protocol</h3>
               <p style={{ color: '#9aa5ce', lineHeight: '1.6', fontSize: '0.9rem' }}>
-                "The integration of CryptoIntel's security intelligence has reduced suspicious transactions
+                "The integration of Blocktrace's security intelligence has reduced suspicious transactions
                 by 87% while maintaining our user experience. Essential for DeFi security."
               </p>
               <div style={{
@@ -821,7 +826,7 @@ function HomePage() {
               }}>🔍</div>
               <h3 style={{ color: '#ed8936', marginBottom: '1rem', fontSize: '1.25rem' }}>Security Researcher</h3>
               <p style={{ color: '#9aa5ce', lineHeight: '1.6', fontSize: '0.9rem' }}>
-                "CryptoIntel's threat intelligence feeds have accelerated our research by 10x.
+                "Blocktrace's threat intelligence feeds have accelerated our research by 10x.
                 The quality of data and analysis is unmatched in the industry."
               </p>
               <div style={{
@@ -938,7 +943,7 @@ function HomePage() {
             margin: '0 auto 3rem',
             lineHeight: '1.6'
           }}>
-            Join thousands of professionals who trust CryptoIntel for their cryptocurrency security intelligence.
+            Join thousands of professionals who trust Blocktrace for their cryptocurrency security intelligence.
             Start protecting your assets today.
           </p>
 
@@ -1370,7 +1375,7 @@ function LoginPage() {
             Welcome Back
           </h1>
           <p style={{ color: '#9aa5ce', fontSize: '1.125rem' }}>
-            Sign in to your CryptoIntel account
+            Sign in to your Blocktrace account
           </p>
         </div>
 
@@ -1598,7 +1603,7 @@ function RegisterPage() {
             Create Account
           </h1>
           <p style={{ color: '#9aa5ce', fontSize: '1.125rem' }}>
-            Join CryptoIntel for advanced crypto analysis
+            Join Blocktrace for advanced crypto analysis
           </p>
         </div>
 

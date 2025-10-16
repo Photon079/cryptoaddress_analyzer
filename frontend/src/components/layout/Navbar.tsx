@@ -18,6 +18,14 @@ const Navbar = () => {
   return (
     <header className="bg-primary-dark shadow-sm">
       <nav className="flex items-center justify-between p-4" aria-label="Global">
+        {/* Logo and Brand Name */}
+        <div className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-3">
+            <img src="./logo.jpg" alt="Blocktrace Logo" className="h-10 w-10 rounded-md object-cover" />
+            <span className="text-xl font-bold text-text-primary">Blocktrace</span>
+          </Link>
+        </div>
+
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -69,6 +77,22 @@ const Navbar = () => {
         <div className="lg:hidden" role="dialog" aria-modal="true">
           <div className="fixed inset-0 z-10"></div>
           <div className="fixed inset-y-0 left-0 z-10 w-full overflow-y-auto bg-primary px-6 py-6">
+            <div className="flex items-center justify-between mb-6">
+              <Link to="/" className="flex items-center gap-3" onClick={() => setMobileMenuOpen(false)}>
+                <img src="/logo.jpg" alt="Blocktrace Logo" className="h-10 w-10 rounded-md object-cover" />
+                <span className="text-xl font-bold text-text-primary">Blocktrace</span>
+              </Link>
+              <button
+                type="button"
+                className="-m-2.5 rounded-md p-2.5 text-text-primary"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                <span className="sr-only">Close menu</span>
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
             <div className="flex items-center justify-between">
               <div className="flex flex-col space-y-4 py-6">
                 <Link 
